@@ -11,7 +11,6 @@ int main()
 	int a, b;
 	int c;
 	float f;
-
 	/* 初始化 */
 	a = 10;
 	b = 20;
