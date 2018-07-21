@@ -10,7 +10,8 @@ int main(int argc, char const *argv[])
 	strcpy(name, "Zara Ali");
 
 	/* 动态分配内存 */
-	description = malloc(200 * sizeof(char));
+	/*description = malloc(200 * sizeof(char));*/
+	description = calloc(200, sizeof(char));
 	if (description == NULL)
 	{
 		fprintf(stderr, "Error - unable to allocate required memory\n");
